@@ -12,8 +12,7 @@ const dimensions = {
 dimensions.boundedWidth = dimensions.width - dimensions.margin.left - dimensions.margin.right;
 dimensions.boundedHeight = dimensions.height - dimensions.margin.top - dimensions.margin.bottom;
 
-const svg = d3
-        .select('figure#chart')
+const svg = d3.select('figure#chart')
         .append('svg')
         // .attr("width", dimensions.width)
         // .attr("height", dimensions.height);
